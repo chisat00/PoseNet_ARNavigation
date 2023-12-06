@@ -1,0 +1,18 @@
+net: "/home/lemon/work/caffe-posenet-master/posenet/models/train_posenet.prototxt"
+test_initialization: false
+test_iter: 1000000000
+test_interval: 1000000000
+base_lr: 1e-5
+lr_policy: "step"
+gamma: 0.94
+stepsize: 10000
+display: 20
+average_loss:20
+max_iter: 30000
+solver_type: SGD
+momentum:0.9
+weight_decay: 0.0002
+snapshot: 2500
+snapshot_prefix: "/home/lemon/work/caffe-posenet-master/posenet/models"
+solver_mode: GPU
+
