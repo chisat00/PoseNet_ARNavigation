@@ -1,4 +1,8 @@
 ###
+demo
+![demo](https://github.com/Exinwww/PoseNet_ARNavigation/blob/master/demo.gif)
+
+###
 Server.py为服务端文件，在配置好caffe环境，可正确运行的基础上，运行AsServer.py文件；此外，以for_real.prototxt作为实际部署的模型配置，models_iter_30000.caffemodel作为网络参数。
 
 ###
